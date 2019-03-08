@@ -1,0 +1,82 @@
+header, nav, main, footer { display: block;}
+ /**{box-sizing: border-box;} */
+/*#mobile { display: none;}*/
+#desktop { display: inline;}
+body {background-color: lightslategray; color: seagreen;
+      font-family: Georgia, Arial, serif;
+}
+body p {font-size: 1.5em; 
+        padding: 10px 20px 50px 20px;
+}
+header { background-color: #000033;
+         color: #000;
+         font-family: Georgia, serif;
+}
+h1 {line-height: 200%; color:seagreen;
+    background-color: black;background-position: right;
+    background-repeat: no-repeat; text-align: left;
+    margin-bottom: 0; padding-left: 20px; 
+    height: auto;width:auto; font-size: 3em;
+}
+h2 { color: black;
+     font-family: Georgia, serif;
+     font-size: 2em;
+}
+h3 { color: #000033;}
+dt { color: #000033;
+     font-weight: 800;
+}
+footer {font-size: .70em;
+        color:black;
+        font-style: italic;
+        text-align: center;
+        padding: 10px;
+        background-color: seagreen;
+        margin-left: 160px;
+}
+footer a {color: black; text-decoration: none;}
+main {display: block; background-color: ghostwhite;
+      margin-left: 160px; padding: 1px 0px;
+}
+main a{ text-decoration: none; font-size: 1.5em;}
+main ul { list-style-type: none;}
+main li { display: inline; margin: 0px;  
+          background-color: ghostwhite; color: #666666;
+          font-size: 2em;
+}
+main li a {font-size: 0.6em;}
+main li p {font-size: 0.6em;}
+
+nav { background-color: black; 
+      float:left; 
+      width: 160px; 
+      padding: 20px 5px 108px 20px;
+      font-weight: 200;
+      clear: left;
+      box-sizing: border-box;
+}
+nav a{ text-decoration: none;background-color: black; 
+       font-size: 1em;
+}
+nav a:link { color: #AAA;}
+nav a:visited { color: #EEE;}
+nav a:hover { color: darkseagreen;}
+nav ul { list-style-type: none;
+         margin: 0;
+         padding-left: 0;
+}
+nav li {padding-bottom: 10px; font-size: 1.5em;}
+table { border: 1px solid #3399CC; width: 90%; 
+        border-collapse: collapse;
+}
+td, th { padding: 5px; border: 1px solid #000000;}
+td { text-align: center;}
+tr:nth-of-type(even) {background-color: #F5FAFC;}
+.text { text-align: left;}
+#wrapper {margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          background-color: seagreen;
+          min-width: 700px; max-width: 1024px;
+          box-shadow: 5px 5px 5px 5px #1e1e1e;
+}
