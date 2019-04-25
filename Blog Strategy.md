@@ -12,13 +12,13 @@
 </p>
 <h3>Critical Success Factors</h3>
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Provide up to date information</li>
+  <li>Promote devices based on users needs</li>
+  <li>Respond to follower's feedback</li>
 </ul>
 <h3>Key Performance Indicators</h3>
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Number of followers</li>
+  <li>Number of reads per post</li>
+  <li>Number of sponsors</li>
 </ul>
