@@ -21,4 +21,5 @@
   <li>Number of followers</li>
   <li>Number of reads per post</li>
   <li>Number of sponsors</li>
+  <li>Average time spent on page</li>
 </ul>
