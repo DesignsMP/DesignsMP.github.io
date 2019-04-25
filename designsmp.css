@@ -77,6 +77,6 @@ tr:nth-of-type(even) {background-color: #F5FAFC;}
           margin-right: auto;
           width: 80%;
           background-color: seagreen;
-          min-width: 700px; max-width: 1024px;
+          min-width: 700px; max-width: 1920px;
           box-shadow: 5px 5px 5px 5px #1e1e1e;
 }
