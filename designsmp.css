@@ -1,82 +1,114 @@
-header, nav, main, footer { display: block;}
- /**{box-sizing: border-box;} */
-/*#mobile { display: none;}*/
+html, body {
+    margin: 0px; 
+    height: 100%;
+    
+}
 #desktop { display: inline;}
-body {background-color: lightslategray; color: seagreen;
-      font-family: Georgia, Arial, serif;
+#programs {
+    width: auto;
+    height: auto;
 }
-body p {font-size: 1.5em; 
-        padding: 10px 20px 50px 20px;
+#design {
+    width: auto;
+    height: auto;
+    background-color: ghostwhite;
 }
-header { background-color: #000033;
+body {
+    background-color: darkseagreen; 
+    color: black;
+    font-family: Georgia, Arial, serif;
+    text-align: center;
+    width: 100%;
+}
+body p {
+    font-size: 1.5em; 
+    padding: 10px 20px 50px 20px;
+    text-align: left;
+}
+header { background-color: #218899;
          color: #000;
          font-family: Georgia, serif;
 }
-h1 {line-height: 200%; color:seagreen;
-    background-color: black;background-position: right;
-    background-repeat: no-repeat; text-align: left;
-    margin-bottom: 0; padding-left: 20px; 
-    height: auto;width:auto; font-size: 3em;
+h1 {
+    line-height: 200%; 
+    color:gainsboro;
+    background-position: right;
+    background-repeat: no-repeat; 
+    text-align: left;
+    margin: 0px;; padding-left: 0px; 
+    height: auto; width:100%; 
+    font-size: 3em;
+    text-align: center;
 }
 h2 { color: black;
      font-family: Georgia, serif;
-     font-size: 2em;
+     font-size: 1.5em;
+     text-align: center;
 }
-h3 { color: #000033;}
-dt { color: #000033;
+h3 { color: black;}
+dt { color: black;
      font-weight: 800;
 }
 footer {font-size: .70em;
         color:black;
         font-style: italic;
         text-align: center;
-        padding: 10px;
-        background-color: seagreen;
-        margin-left: 160px;
+        padding: 0px;
+        padding-bottom: 1px;
+        background-color: gainsboro;
+        width: 100%;
+        position: sticky;
+        top: 100px;
 }
-footer a {color: black; text-decoration: none;}
-main {display: block; background-color: ghostwhite;
-      margin-left: 160px; padding: 1px 0px;
+footer a {
+    color: black; 
+    text-decoration: none;}
+img {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    border: 5px solid #116699;
+    padding: 10px;
 }
-main a{ text-decoration: none; font-size: 1.5em;}
-main ul { list-style-type: none;}
-main li { display: inline; margin: 0px;  
-          background-color: ghostwhite; color: #666666;
-          font-size: 2em;
+main {
+    display: block; 
+    background-color: seashell; 
+    padding: 1px 0px;
 }
-main li a {font-size: 0.6em;}
-main li p {font-size: 0.6em;}
+main a  { text-decoration: none; font-size: 1em; font-style: italic;}
+main p { 
+    padding-left: 300px;
+    padding-right: 300px;
+    text-indent: 2.5em;
+}
 
-nav { background-color: black; 
-      float:left; 
-      width: 160px; 
-      padding: 20px 5px 108px 20px;
-      font-weight: 200;
-      clear: left;
-      box-sizing: border-box;
+nav { 
+    background-color: #218899;
+    width: 100%; 
+    padding: 20px 5px 40px 0px;
+    font-weight: 200;
 }
-nav a{ text-decoration: none;background-color: black; 
+nav a{ text-decoration: none; 
        font-size: 1em;
+       float: left;
+       padding-bottom: 10px;
+       padding-left: 25px;
+       font-size: 1.5em;
 }
-nav a:link { color: #AAA;}
-nav a:visited { color: #EEE;}
-nav a:hover { color: darkseagreen;}
-nav ul { list-style-type: none;
-         margin: 0;
-         padding-left: 0;
+nav a:link { color: #550055;}
+nav a:visited { color: #333;}
+nav a:hover { color: lightpink;}
+.imgRow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
 }
-nav li {padding-bottom: 10px; font-size: 1.5em;}
-table { border: 1px solid #3399CC; width: 90%; 
-        border-collapse: collapse;
+.imgColumn {
+    flex: 50%;
+    max-width: 50%;
 }
-td, th { padding: 5px; border: 1px solid #000000;}
-td { text-align: center;}
-tr:nth-of-type(even) {background-color: #F5FAFC;}
-.text { text-align: left;}
-#wrapper {margin-left: auto;
-          margin-right: auto;
-          width: 80%;
-          background-color: seagreen;
-          min-width: 700px; max-width: 1024px;
-          box-shadow: 5px 5px 5px 5px #1e1e1e;
+.imgColumn p{
+    float:left;
+    text-align: center;
 }
+
