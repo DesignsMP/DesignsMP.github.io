@@ -11,7 +11,6 @@ html, body {
 #design {
     width: auto;
     height: auto;
-    background-color: ghostwhite;
 }
 body {
     background-color: darkseagreen; 
@@ -40,14 +39,23 @@ h1 {
     font-size: 3em;
     text-align: center;
 }
-h2 { color: black;
+h2 { 
+     color: black;
      font-family: Georgia, serif;
      font-size: 1.5em;
      text-align: center;
 }
-h3 { color: black;}
-dt { color: black;
-     font-weight: 800;
+h3 { 
+    color: black;
+    background-color: gainsboro;
+}
+h4 {
+    color: black;
+    background-color: gainsboro;
+    margin: 0px 20px;
+    margin-top: 10px;
+    padding: 10px 0px;
+    border-radius: 15px 15px 15px 15px;
 }
 footer {font-size: .70em;
         color:black;
@@ -56,9 +64,8 @@ footer {font-size: .70em;
         padding: 0px;
         padding-bottom: 1px;
         background-color: gainsboro;
-        width: 100%;
-        position: sticky;
-        top: 100px;
+        margin: 0px 20px;
+        border-radius: 15px 15px 15px 15px;
 }
 footer a {
     color: black; 
@@ -66,7 +73,7 @@ footer a {
 img {
     height: auto;
     width: 100%;
-    background-color: black;
+    background-color: gainsboro;
     border: 5px solid #116699;
     padding: 10px;
 }
@@ -74,12 +81,12 @@ main {
     display: block; 
     background-color: seashell; 
     padding: 1px 0px;
+    margin: 20px;
+    border-radius: 15px 15px 15px 15px;
 }
 main a  { text-decoration: none; font-size: 1em; font-style: italic;}
 main p { 
-    padding-left: 300px;
-    padding-right: 300px;
-    text-indent: 2.5em;
+    text-indent: 2em;
 }
 
 nav { 
@@ -95,8 +102,8 @@ nav a{ text-decoration: none;
        padding-left: 25px;
        font-size: 1.5em;
 }
-nav a:link { color: #550055;}
-nav a:visited { color: #333;}
+nav a:link { color: seashell;}
+nav a:visited { color: seashell;}
 nav a:hover { color: lightpink;}
 .imgRow {
     display: flex;
