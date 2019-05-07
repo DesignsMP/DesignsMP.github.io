@@ -4,6 +4,36 @@ html, body {
     
 }
 #desktop { display: inline;}
+#item1{
+    
+}
+#item2{
+    
+}
+#item3{
+    
+}
+#item4{
+    
+}
+#item5{
+    
+}
+#item6{
+    
+}
+#item7{
+    
+}
+#item8{
+    
+}
+#item9{
+    
+}
+#item10{
+    
+}
 #programs {
     width: auto;
     height: auto;
@@ -70,6 +100,7 @@ h4 {
 }
 figcaption {
     font-size: 1.5em;
+    padding-bottom: 10px;
 }
 footer {font-size: .70em;
         color:black;
