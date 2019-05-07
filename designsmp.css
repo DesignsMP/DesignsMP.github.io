@@ -11,8 +11,9 @@ html, body {
 #portfolio {
     display: inline;
 }
-#portfolio p{
+#portfolio h5{
     text-align: center;
+    font-size: 1.5em;
 }
 #portfolio img{
     max-width: 700px;
