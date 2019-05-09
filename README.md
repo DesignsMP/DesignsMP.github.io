@@ -1,4 +1,4 @@
-<h1>This Website servers as an online portfolio for all my previous work.</h1>
+<h1>This Website serves as an online portfolio for all my previous work both academic and personal.</h1>
 <a href="https://designsmp.github.io/index.html" target="_blank">DesignsMP</a>
 <h2>Bio:</h2>
 <br>
